@@ -1,0 +1,44 @@
+body {
+  display: block;
+  background-color: rgb(236, 71, 71);
+}
+
+.mainTitle {
+  height: 20px;
+  font-size: larger;
+  font-stretch: ultra-expanded;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#logotxt {
+  text-align: center;
+  font-size: 400%;
+  font-weight: bold;
+  color: crimson;
+}
+
+#mainimg {
+  height: 250px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/*rem vs em */
+#nav1 {
+  width: 150px;
+  float: left;
+  text-align: center;
+  line-height: 87px;
+  margin-left: 2.5em;
+}
+
+#nav1 a {
+  display: inline;
+  padding: 2px;
+  color: lightblue;
+}
+
+#textcontent {
+  margin: 3em;
+}
